@@ -19,12 +19,12 @@ class FindElementBy_LinkTxt_PartialTxt():
         elementByPartial_Linktxt = driver.find_element_by_partial_link_text("loca")
 
         if elementByPartial_Linktxt is not None:
+
             print("We found element By Partial Link Text")
 
 
 # CW = FindElementBy_LinkTxt_PartialTxt()
 # CW.test()
-
 
 
 
