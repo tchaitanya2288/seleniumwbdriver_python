@@ -37,10 +37,10 @@ class CalenderSelection():
         driver.find_element_by_id("tab-flight-tab-hp").click()
         # Find departing field
         driver.find_element_by_id("flight-departing-hp-flight").click()
-        calMonth= driver.find_element(By.XPATH,"//div[@id='flight-departing-wrapper-hp-flight']/div[@class='datepicker-dropdown']")
-        allvalidDates = calMonth.find_elements(By.TAG_NAME, "a")
+        calMonth= driver.find_element(By.XPATH,"//*[@id='flight-departing-wrapper-hp-flight']/div/div/div[2]/table/tbody/tr[5]/td[6]")
+        allvalidDates = calMonth.find_elements(By.TAG_NAME, "button")
 
-        time.sleep(2)
+        time.sleep(5)
 
         for date in allvalidDates:
 
