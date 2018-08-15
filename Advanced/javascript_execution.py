@@ -15,7 +15,7 @@ class JavascriptExecution():
         driver.execute_script("window.location = 'https://learn.letskodeit.com/p/practice';")
         element = driver.execute_script("return document.getElementById('name');")
         element.send_keys("Test")
-        time.sleep(5)
+        driver.implicitly_wait(3)
 
 
 ff = JavascriptExecution()
