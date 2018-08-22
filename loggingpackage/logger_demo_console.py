@@ -8,7 +8,7 @@ class Loggerdemoconsole():
         chandler = logging.StreamHandler()
         chandler.setLevel(logging.INFO)
         #Create formatter
-        formatter = logging.Formatter('%(asctime)s: -%(name)s - %(levelname)s: %(message)s', datefmt='%m%d%Y %I:%M:%S %p')
+        formatter = logging.Formatter(format='%(asctime)s: %(levelname)s: %(message)s',datefmt='%m%d%Y %I:%M:%S %p')
         #Add formatter to console handler --> chandler
         chandler.setFormatter(formatter)
         #add console handler to logger
