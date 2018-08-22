@@ -1,0 +1,4 @@
+08222018 10:20:53 AM: -method2:- INFO: info message
+08222018 10:20:53 AM: -method2:- WARNING: warning message
+08222018 10:20:53 AM: -method2:- ERROR: error message
+08222018 10:20:53 AM: -method2:- CRITICAL: critical messsage
