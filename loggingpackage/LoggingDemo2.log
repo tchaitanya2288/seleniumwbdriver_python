@@ -1,0 +1,5 @@
+08222018 10:20:53 AM: -LoggingDemo2:- DEBUG: debug message
+08222018 10:20:53 AM: -LoggingDemo2:- INFO: info message
+08222018 10:20:53 AM: -LoggingDemo2:- WARNING: warning message
+08222018 10:20:53 AM: -LoggingDemo2:- ERROR: error message
+08222018 10:20:53 AM: -LoggingDemo2:- CRITICAL: critical messsage
