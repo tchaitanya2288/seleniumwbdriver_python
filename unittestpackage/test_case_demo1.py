@@ -1,4 +1,5 @@
 import unittest
+import unittestpackage.assert_demo
 
 class TestCaseDemo1(unittest.TestCase):
 
